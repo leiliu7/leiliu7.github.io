@@ -21,7 +21,7 @@
         /* Style for active navigation link (optional, can be added with JS) */
         .nav-link.active {
             font-weight: 600; /* Semi-bold */
-            color: #3b82f6; /* Blue-500 */
+            color: #14532d; /* Green-900 */
         }
         /* Custom scrollbar (optional) */
         ::-webkit-scrollbar {
@@ -46,14 +46,14 @@
         <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
             <!-- Removed the "Lei Liu" link from the top-left corner -->
             <div class="hidden md:flex space-x-6">
-                <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">About</a>
-                <a href="#projects" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Projects</a>
-                <a href="#skills" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Skills</a>
-                <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Contact</a>
-                <a href="#blog" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Blog</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-green-900 font-medium transition-colors duration-300 rounded-md px-3 py-2">About</a>
+                <a href="#projects" class="nav-link text-gray-700 hover:text-green-900 font-medium transition-colors duration-300 rounded-md px-3 py-2">Projects</a>
+                <a href="#skills" class="nav-link text-gray-700 hover:text-green-900 font-medium transition-colors duration-300 rounded-md px-3 py-2">Skills</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-green-900 font-medium transition-colors duration-300 rounded-md px-3 py-2">Contact</a>
+                <a href="#blog" class="nav-link text-gray-700 hover:text-green-900 font-medium transition-colors duration-300 rounded-md px-3 py-2">Blog</a>
             </div>
             <!-- Mobile Menu Button -->
-            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-500">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                 </svg>
@@ -72,13 +72,13 @@
     <main class="pt-20"> <!-- Padding top to account for fixed header -->
 
         <!-- Hero/About Me Section -->
-        <section id="hero" class="bg-gradient-to-r from-blue-700 to-indigo-900 text-white py-20 md:py-32 flex items-center justify-center min-h-screen-minus-nav">
+        <section id="hero" class="bg-green-900 text-white py-20 md:py-32 flex items-center justify-center min-h-screen-minus-nav">
             <div class="container mx-auto px-6 text-center">
                 <div class="flex flex-col items-center justify-center">
                     <div class="max-w-2xl">
                         <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-up">Hi, I'm Lei Liu</h1>
                         <p class="text-xl md:text-2xl font-light mb-8 animate-fade-in-up delay-200">A passionate Data Analyst transforming data into actionable insights and business impact.</p>
-                        <a href="#contact" class="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-blue-100 transition-all duration-300 transform hover:scale-105 animate-fade-in-up delay-400">Get in Touch</a>
+                        <!-- Removed the "Get in Touch" button from here -->
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
         <!-- About Section -->
         <section id="about" class="py-16 md:py-24 bg-gray-50">
             <div class="container mx-auto px-6 max-w-4xl">
-                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">About Me</h2>
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-600">About Me</h2>
                 <div class="prose max-w-none text-gray-700 leading-relaxed">
                     <p class="mb-4">Hello! I'm Lei Liu, a dedicated Data Analyst with a strong foundation in statistical analysis, data visualization, and database management. My journey into data began with a fascination for uncovering hidden patterns and telling compelling stories through numbers. I believe that every dataset holds valuable insights waiting to be discovered, and my goal is to transform data into strategic recommendations that drive organizations' business growth.</p>
                     <p class="mb-4">Over the past 2 years, I've had the opportunity to work on diverse projects across various industries, including e-commerce, digital marketing, vendor performance. My expertise lies in cleaning messy datasets, performing in-depth exploratory data analysis, building interactive dashboards, and communicating complex findings to non-technical stakeholders.</p>
@@ -99,55 +99,55 @@
         <!-- Consolidated Projects Section -->
         <section id="projects" class="py-16 md:py-24 bg-gray-50">
             <div class="container mx-auto px-6 max-w-5xl">
-                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">My Projects</h2>
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-600">My Projects</h2>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Project 1 -->
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
                         <img src="https://raw.githubusercontent.com/leiliu7/leiliu7.github.io/main/images/pj1.png" alt="Social Media Campaign Performance" class="w-full h-48 object-cover rounded-md mb-4">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Optimizing Ad Campaign on Social Media</h3>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2">Optimizing Ad Campaign on Social Media</h3>
                         <p class="text-gray-700 mb-4 text-sm">A machine learning project by discovering trends to understand how users behave, by utilizing machine learning algorithms to predict conversion rates, with the goal of optimizing social media ad campaigns and increasing business revenue.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Python</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Machine Learning</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Data Cleaning</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Python</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Machine Learning</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Data Cleaning</span>
                         </div>
-                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/blob/main/Social-Media-Campaign-Performance-Analysis/optimizing_social_media_ad_campaign.ipynb" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/blob/main/Social-Media-Campaign-Performance-Analysis/optimizing_social_media_ad_campaign.ipynb" class="text-gray-700 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
 
                     <!-- Project 2 -->
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
                         <img src="https://raw.githubusercontent.com/leiliu7/leiliu7.github.io/main/images/pj2.png" alt="Customer Churn Prediction Model" class="w-full h-48 object-cover rounded-md mb-4">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Customer Churn Prediction Model</h3>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2">Customer Churn Prediction Model</h3>
                         <p class="text-gray-700 mb-4 text-sm">Built a machine learning model in Python to predict customer churn, identifying at-risk customers with 85% accuracy. Utilized Pandas for data manipulation and Scikit-learn for model training.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Python</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Machine Learning</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Predictive Analytics</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Python</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Machine Learning</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Predictive Analytics</span>
                         </div>
-                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/blob/main/Bank-Churn-Prediction/slides%20presentation_XYZ_%20bank_churn_prediction.pdf" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/blob/main/Bank-Churn-Prediction/slides%20presentation_XYZ_%20bank_churn_prediction.pdf" class="text-gray-700 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
 
                     <!-- Project 3 - Used Vehicle Analysis with cue -->
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
                         <img src="https://raw.githubusercontent.com/leiliu7/leiliu7.github.io/main/images/pj3.png" alt="Used Vehicle Analysis Dashboard" class="w-full h-48 object-cover rounded-md mb-4">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-2 flex items-center">
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2 flex items-center">
                             Used Vehicle Analysis
-                            <svg class="w-5 h-5 ml-2 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="w-5 h-5 ml-2 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                             </svg>
                         </h3>
                         <p class="text-gray-700 mb-4 text-sm">Analyzed used vehicle data from Craigslist to discover trends and predict prices using statistical models. Presented insights via an interactive Tableau Story.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Statistical Analysis</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Data Storytelling</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Statistical Analysis</span>
+                            <span class="bg-red-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Data Storytelling</span>
                         </div>
-                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/tree/main/Vehicles-Price-Prediction" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/tree/main/Vehicles-Price-Prediction" class="text-gray-700 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
 
                     <!-- Arrow to next projects -->
                     <div class="col-span-full flex justify-center py-8">
-                        <a href="#project-row-2" id="scroll-to-next-projects" class="inline-flex items-center justify-center p-3 rounded-full bg-blue-500 text-white shadow-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
+                        <a href="#project-row-2" id="scroll-to-next-projects" class="inline-flex items-center justify-center p-3 rounded-full bg-gray-700 text-white shadow-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-105">
                             <span class="mr-2 text-lg font-medium">More Projects Below</span>
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
@@ -158,33 +158,33 @@
                     <!-- Project 4 (Vendor Performance Analysis) -->
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200" id="project-row-2">
                         <img src="https://raw.githubusercontent.com/leiliu7/leiliu7.github.io/main/images/pj4.png" alt="Vendor Performance Analysis Dashboard" class="w-full h-48 object-cover rounded-md mb-4">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Vendor Performance Analysis</h3>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2">Vendor Performance Analysis</h3>
                         <p class="text-gray-700 mb-4 text-sm">Developed an interactive Tableau dashboard to analyze vendor outage data, identify performance bottlenecks, and provide actionable insights for improving service reliability and operational efficiency.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Tableau</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Data Visualization</span>
-                            <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded-full">SQL</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Tableau</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Data Visualization</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full">SQL</span>
                         </div>
-                        <a href="https://public.tableau.com/app/profile/lei.liu3755/viz/AEMROutageAnalysisJan2016-Dec2017_17246973919050/AEMREXECPRESENTATION" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+                        <a href="https://public.tableau.com/app/profile/lei.liu3755/viz/AEMROutageAnalysisJan2016-Dec2017_17246973919050/AEMREXECPRESENTATION" class="text-gray-700 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
 
                     <!-- Project 5 (Business Analytics in Excel) -->
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
                         <img src="https://raw.githubusercontent.com/leiliu7/leiliu7.github.io/main/images/pj5.png" alt="Financial Dashboard in Excel" class="w-full h-48 object-cover rounded-md mb-4">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Business Analytics in Excel</h3>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2">Business Analytics in Excel</h3>
                         <p class="text-gray-700 mb-4 text-sm">Designed and implemented business analytics model using advanced Excel functions (VLOOKUP, INDEX-MATCH, SUMIFS), Analysis Two-Way Table, Conditional Formating Table, and PivotTables. Enabled pricing forecast and inventory management.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
                             <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Excel</span>
                             <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">PivotTables</span>
                             <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Data Analysis</span>
                         </div>
-                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/tree/main/Excel-Project" class="text-blue-600 hover:underline font-medium text-sm"  target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/tree/main/Excel-Project" class="text-gray-700 hover:underline font-medium text-sm"  target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
 
                     <!-- Project 6 (Smart Toys Co. Database Design) -->
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
                         <img src="https://raw.githubusercontent.com/leiliu7/leiliu7.github.io/main/images/pj6.png" alt="Smart Toys Database Design" class="w-full h-48 object-cover rounded-md mb-4">
-                        <h3 class="text-xl font-semibold text-blue-700 mb-2">Smart Toys Co. Database Design</h3>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-2">Smart Toys Co. Database Design</h3>
                         <p class="text-gray-700 mb-4 text-sm">Designed and implemented a relational database schema for a smart toys company, ensuring efficient data storage, retrieval, and integrity for product, customer, and sales information. Focused on normalization and scalability.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
                             <span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full">SQL</span>
@@ -192,7 +192,7 @@
                             <span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Data Modeling</span>
                             <span class="bg-red-100 text-red-800 text-xs font-medium px-2.5 py-0.5 rounded-full">Google BigQuery</span>
                         </div>
-                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/blob/main/Smart-toys-database/smart_toys_database_document.pdf" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+                        <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/blob/main/Smart-toys-database/smart_toys_database_document.pdf" class="text-gray-700 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
                 </div>
             </div>
@@ -201,37 +201,37 @@
         <!-- Skills Section -->
         <section id="skills" class="py-16 md:py-24 bg-gray-50">
             <div class="container mx-auto px-6 max-w-4xl">
-                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Skills</h2>
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-600">Skills</h2>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <!-- Technical Skills -->
                     <div class="bg-gray-100 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
-                        <h3 class="text-2xl font-semibold text-blue-700 mb-6 text-center">Technical Skills</h3>
+                        <h3 class="text-2xl font-semibold text-green-900 mb-6 text-center">Technical Skills</h3>
                         <div class="flex flex-wrap justify-center gap-4">
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">SQL</span>
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Python</span>
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Tableau</span>
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Power BI</span>
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Excel</span>
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Pandas</span>
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">NumPy</span>
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Scikit-learn</span>
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Git/GitHub</span>
-                            <span class="bg-blue-200 text-blue-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Cloud Data Warehouse</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">SQL</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Python</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Tableau</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Power BI</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Excel</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Pandas</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">NumPy</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Scikit-learn</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Git/GitHub</span>
+                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Cloud Data Warehouse</span>
                         </div>
                     </div>
 
                     <!-- Soft Skills -->
                     <div class="bg-gray-100 p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-200">
-                        <h3 class="text-2xl font-semibold text-blue-700 mb-6 text-center">Soft Skills</h3>
+                        <h3 class="text-2xl font-semibold text-green-900 mb-6 text-center">Soft Skills</h3>
                         <div class="flex flex-wrap justify-center gap-4">
-                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Problem-Solving</span>
-                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Communication</span>
-                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Critical Thinking</span>
-                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Data Storytelling</span>
-                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Teamwork</span>
-                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Adaptability</span>
-                            <span class="bg-green-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Attention to Detail</span>
+                            <span class="bg-blue-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Problem-Solving</span>
+                            <span class="bg-blue-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Communication</span>
+                            <span class="bg-blue-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Critical Thinking</span>
+                            <span class="bg-blue-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Data Storytelling</span>
+                            <span class="bg-blue-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Teamwork</span>
+                            <span class="bg-blue-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Adaptability</span>
+                            <span class="bg-blue-200 text-green-900 px-4 py-2 rounded-full text-lg font-medium shadow-sm">Attention to Detail</span>
                         </div>
                     </div>
                 </div>
@@ -241,7 +241,7 @@
         <!-- Contact Section -->
         <section id="contact" class="py-16 md:py-24 bg-gray-50">
             <div class="container mx-auto px-6 max-w-2xl">
-                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Get in Touch</h2>
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-600">Get in Touch</h2>
 
                 <div class="bg-gray-100 p-8 rounded-lg shadow-md border border-gray-200">
                     <p class="text-center text-gray-700 mb-8">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
@@ -249,28 +249,28 @@
                     <form id="contact-form" class="space-y-6">
                         <div>
                             <label for="name" class="block text-gray-800 text-sm font-medium mb-2">Name</label>
-                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" required>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Your Name" required>
                         </div>
                         <div>
                             <label for="email" class="block text-gray-800 text-sm font-medium mb-2">Email</label>
-                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="your.email@example.com" required>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="your.email@example.com" required>
                         </div>
                         <div>
                             <label for="message" class="block text-gray-800 text-sm font-medium mb-2">Message</label>
-                            <textarea id="message" name="message" rows="6" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your message..." required></textarea>
+                            <textarea id="message" name="message" rows="6" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Your message..." required></textarea>
                         </div>
-                        <button type="submit" class="w-full bg-blue-600 text-white font-semibold px-6 py-3 rounded-md shadow-md hover:bg-blue-700 transition-colors duration-300 transform hover:scale-105">Send Message</button>
+                        <button type="submit" class="w-full bg-green-700 text-white font-semibold px-6 py-3 rounded-md shadow-md hover:bg-green-800 transition-colors duration-300 transform hover:scale-105">Send Message</button>
                     </form>
                     <div id="form-status" class="mt-4 text-center text-sm font-medium"></div>
 
                     <!-- New section for direct contact info -->
                     <div class="mt-8 pt-6 border-t border-gray-200 text-center">
-                        <p class="text-gray-800 font-semibold mb-2">Or connect directly:</p>
+                        <p class="text-gray-800 font-semibold mb-2"></p>
                         <p class="text-gray-700 mb-2">
-                            <strong class="text-gray-900">Email:</strong> <a href="mailto:leiliu0107@gmail.com" class="text-blue-600 hover:underline">leiliu0107@gmail.com</a>
+                            <strong class="text-gray-900">Email:</strong> <a href="mailto:leiliu0107@gmail.com" class="text-green-900 hover:underline">leiliu0107@gmail.com</a>
                         </p>
                         <p class="text-gray-700">
-                            <strong class="text-gray-900">Phone:</strong> <a href="tel:+14698928857" class="text-blue-600 hover:underline">+1 (469) 892-8857</a> <!-- Placeholder phone number -->
+                            <strong class="text-gray-900">Phone:</strong> <a href="tel:+14698928857" class="text-green-900 hover:underline">+1 (469) 892-8857</a> <!-- Placeholder phone number -->
                         </p>
                     </div>
                 </div>
@@ -278,12 +278,12 @@
                 <div class="mt-12 text-center text-gray-700">
                     <p class="mb-2">Find me on:</p>
                     <div class="flex justify-center space-x-6">
-                        <a href="https://linkedin.com/in/leiliuprofile" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                        <a href="https://linkedin.com/in/leiliuprofile" target="_blank" rel="noopener noreferrer" class="text-green-900 hover:text-green-700 transition-colors duration-300">
                             <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                             </svg>
                         </a>
-                        <a href="https://public.tableau.com/app/profile/lei.liu3755/vizzes" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                        <a href="https://public.tableau.com/app/profile/lei.liu3755/vizzes" target="_blank" rel="noopener noreferrer" class="text-green-900 hover:text-green-700 transition-colors duration-300">
                             <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4 22H6V12H4V22ZM8 22H10V2H8V22ZM12 22H14V16H12V22ZM16 22H18V7H16V22ZM20 22H22V11H20V22Z"/>
                             </svg>
@@ -302,7 +302,7 @@
         <!-- Blog Section -->
         <section id="blog" class="py-16 md:py-24 bg-gray-50">
             <div class="container mx-auto px-6 max-w-4xl">
-                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Blog</h2>
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-600">Blog</h2>
                 <div class="prose max-w-none text-gray-700 leading-relaxed text-center">
                     <p class="mb-4">Welcome to my blog! Here, I'll share insights, tutorials, and thoughts on data analytics, data science, and technology trends.</p>
                     <p>Stay tuned for new posts!</p>
