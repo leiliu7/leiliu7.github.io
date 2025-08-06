@@ -47,11 +47,10 @@
             <!-- Removed the "Lei Liu" link from the top-left corner -->
             <div class="hidden md:flex space-x-6">
                 <a href="#about" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">About</a>
-                <a href="#data-science-projects" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Data Science Projects</a>
-                <a href="#excel-projects" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Excel Projects</a>
-                <a href="#database-projects" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Database Projects</a>
+                <a href="#projects" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Projects</a>
                 <a href="#skills" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Skills</a>
                 <a href="#contact" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Contact</a>
+                <a href="#blog" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300 rounded-md px-3 py-2">Blog</a>
             </div>
             <!-- Mobile Menu Button -->
             <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
@@ -63,11 +62,10 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg py-2">
             <a href="#about" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md mx-2 my-1">About</a>
-            <a href="#data-science-projects" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md mx-2 my-1">Data Science Projects</a>
-            <a href="#excel-projects" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md mx-2 my-1">Excel Projects</a>
-            <a href="#database-projects" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md mx-2 my-1">Database Projects</a>
+            <a href="#projects" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md mx-2 my-1">Projects</a>
             <a href="#skills" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md mx-2 my-1">Skills</a>
             <a href="#contact" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md mx-2 my-1">Contact</a>
+            <a href="#blog" class="block px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md mx-2 my-1">Blog</a>
         </div>
     </header>
 
@@ -91,20 +89,20 @@
             <div class="container mx-auto px-6 max-w-4xl">
                 <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">About Me</h2>
                 <div class="prose max-w-none text-gray-700 leading-relaxed">
-                    <p class="mb-4">Hello! I'm Lei Liu, a dedicated Data Analyst with a strong foundation in statistical analysis, data visualization, and database management. My journey into data began with a fascination for uncovering hidden patterns and telling compelling stories through numbers. I believe that every dataset holds valuable insights waiting to be discovered, and I thrive on transforming raw data into strategic recommendations that drive business growth.</p>
-                    <p class="mb-4">Over the past 2 years, I've had the opportunity to work on diverse projects across various industries, including e-commerce, finance. My expertise lies in cleaning messy datasets, performing in-depth exploratory data analysis, building interactive dashboards, and communicating complex findings to non-technical stakeholders. I'm proficient in tools such as Python (Pandas, NumPy, Matplotlib, Seaborn), SQL, Tableau, and Microsoft Excel.</p>
-                    <p>Outside of work, I enjoy hiking, biking, reading sci-fi novels. I'm always eager to learn new technologies and methodologies in the ever-evolving world of data. Feel free to connect with me to discuss data, technology, or anything in between!</p>
+                    <p class="mb-4">Hello! I'm Lei Liu, a dedicated Data Analyst with a strong foundation in statistical analysis, data visualization, and database management. My journey into data began with a fascination for uncovering hidden patterns and telling compelling stories through numbers. I believe that every dataset holds valuable insights waiting to be discovered, and my goal is to transform data into strategic recommendations that drive organizations' business growth.</p>
+                    <p class="mb-4">Over the past 2 years, I've had the opportunity to work on diverse projects across various industries, including e-commerce, marketing, HR performance. My expertise lies in cleaning messy datasets, performing in-depth exploratory data analysis, building interactive dashboards, and communicating complex findings to non-technical stakeholders.</p>
+                    <p>Outside of work, I enjoy hiking and reading. I'm always eager to learn new technologies and methodologies in the ever-evolving world of data. Feel free to connect with me to discuss data, technology, or anything in between!</p>
                 </div>
             </div>
         </section>
 
-        <!-- Data Science Projects Section -->
-        <section id="data-science-projects" class="py-16 md:py-24 bg-white">
+        <!-- Consolidated Projects Section -->
+        <section id="projects" class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-6 max-w-5xl">
-                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Data Science Projects</h2>
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">My Projects</h2>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Project 1 -->
+                    <!-- Data Science Projects -->
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
                         <img src="https://placehold.co/400x250/e2e8f0/64748b?text=Social+Media+Campaign" alt="Social Media Campaign Performance" class="w-full h-48 object-cover rounded-md mb-4">
                         <h3 class="text-xl font-semibold text-blue-700 mb-2">Optimizing Ad Campaign on Social Media</h3>
@@ -117,7 +115,6 @@
                         <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/blob/main/Social-Media-Campaign-Performance-Analysis/optimizing_social_media_ad_campaign.ipynb" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
 
-                    <!-- Project 2 -->
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
                         <img src="https://placehold.co/400x250/e2e8f0/64748b?text=Customer+Churn+Prediction" alt="Customer Churn Prediction Model" class="w-full h-48 object-cover rounded-md mb-4">
                         <h3 class="text-xl font-semibold text-blue-700 mb-2">Customer Churn Prediction Model</h3>
@@ -130,7 +127,6 @@
                         <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/blob/main/Bank-Churn-Prediction/slides%20presentation_XYZ_%20bank_churn_prediction.pdf" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
 
-                    <!-- Project 3 -->
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
                         <img src="https://placehold.co/400x250/e2e8f0/64748b?text=Used+Vehicle+Analysis" alt="Used Vehicle Analysis Dashboard" class="w-full h-48 object-cover rounded-md mb-4">
                         <h3 class="text-xl font-semibold text-blue-700 mb-2">Used Vehicle Analysis</h3>
@@ -142,7 +138,6 @@
                         <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/tree/main/Vehicles-Price-Prediction" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
 
-                    <!-- Project 4: Vendor Performance Analysis -->
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
                         <img src="https://placehold.co/400x250/e2e8f0/64748b?text=Vendor+Performance" alt="Vendor Performance Analysis Dashboard" class="w-full h-48 object-cover rounded-md mb-4">
                         <h3 class="text-xl font-semibold text-blue-700 mb-2">Vendor Performance Analysis</h3>
@@ -154,18 +149,9 @@
                         </div>
                         <a href="https://public.tableau.com/app/profile/lei.liu3755/viz/AEMROutageAnalysisJan2016-Dec2017_17246973919050/AEMREXECPRESENTATION" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- New Section: Excel Projects -->
-        <section id="excel-projects" class="py-16 md:py-24 bg-gray-50">
-            <div class="container mx-auto px-6 max-w-5xl">
-                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Excel Projects</h2>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Excel Project 1 -->
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+                    <!-- Excel Projects -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
                         <img src="https://placehold.co/400x250/e2e8f0/64748b?text=Excel+Dashboard" alt="Financial Dashboard in Excel" class="w-full h-48 object-cover rounded-md mb-4">
                         <h3 class="text-xl font-semibold text-blue-700 mb-2">Business Analytics in Excel</h3>
                         <p class="text-gray-700 mb-4 text-sm">Designed and implemented business analytics model using advanced Excel functions (VLOOKUP, INDEX-MATCH, SUMIFS), Analysis Two-Way Table, Conditional Formating Table, and PivotTables. Enabled pricing forecast and inventory management.</p>
@@ -177,20 +163,8 @@
                         <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/tree/main/Excel-Project" class="text-blue-600 hover:underline font-medium text-sm"  target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
 
-                    <!-- Add more Excel projects here if needed -->
-
-                </div>
-            </div>
-        </section>
-
-        <!-- New Section: Database Projects -->
-        <section id="database-projects" class="py-16 md:py-24 bg-gray-50">
-            <div class="container mx-auto px-6 max-w-5xl">
-                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Database Projects</h2>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Database Project 1 -->
-                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+                    <!-- Database Projects -->
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
                         <img src="https://placehold.co/400x250/e2e8f0/64748b?text=Database+Design" alt="Smart Toys Database Design" class="w-full h-48 object-cover rounded-md mb-4">
                         <h3 class="text-xl font-semibold text-blue-700 mb-2">Smart Toys Co. Database Design</h3>
                         <p class="text-gray-700 mb-4 text-sm">Designed and implemented a relational database schema for a smart toys company, ensuring efficient data storage, retrieval, and integrity for product, customer, and sales information. Focused on normalization and scalability.</p>
@@ -202,9 +176,6 @@
                         </div>
                         <a href="https://github.com/leiliu7/Data-Analytics-Data-Science-Portfolio/blob/main/Smart-toys-database/smart_toys_database_document.pdf" class="text-blue-600 hover:underline font-medium text-sm" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
                     </div>
-
-                    <!-- Add more Database projects here if needed -->
-
                 </div>
             </div>
         </section>
@@ -295,6 +266,18 @@
                         </a>
                         <!-- Add more social media icons as needed -->
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Blog</h2>
+                <div class="prose max-w-none text-gray-700 leading-relaxed text-center">
+                    <p class="mb-4">Welcome to my blog! Here, I'll share insights, tutorials, and thoughts on data analytics, data science, and technology trends.</p>
+                    <p>Stay tuned for new posts!</p>
+                    <!-- You can add blog post cards here later -->
                 </div>
             </div>
         </section>
